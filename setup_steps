@@ -1,0 +1,34 @@
+# Setup Steps
+
+## 1. Prepare SD Card
+- Download Vitis AI pre-built image for ZCU104.
+- Flash SD card using BalenaEtcher.
+- Insert SD card into board.
+
+## 2. Boot Board
+- Connect power, Ethernet, and USB-UART.
+- Open serial terminal (115200 baud).
+- Login as:
+  Username: root
+  Password: root
+
+## 3. Verify Network
+- Check IP address:
+  ip addr
+- Connect via SSH from host:
+  ssh root@<board_ip>
+
+## 4. Verify DPU
+- Run:
+  xdputil query
+- Confirm DPUCZDX8G is detected.
+
+## 5. Install Tiny YOLOv3 Model
+- Copy model to board.
+- Place model in:
+  /usr/share/vitis_ai_library/models/
+
+## 6. Run Object Detection
+- Navigate to example directory.
+- Run:
+  ./test_jpeg_yolov3 tinyyolov3 image.jpg
