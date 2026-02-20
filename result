@@ -1,0 +1,21 @@
+Project: Tiny YOLOv3 on ZCU104 (Vitis AI DPU)
+
+Board: Xilinx ZCU104
+DPU: DPUCZDX8G
+Model: Tiny YOLOv3 (INT8)
+
+Verification:
+- DPU detected using xdputil query.
+- Model successfully loaded.
+- Object detection executed on FPGA DPU.
+
+Output:
+- Message said Object Detected.
+- With Parameters of the image.
+
+Status:
+✓ Board bring-up successful
+✓ Network configured
+✓ DPU verified
+✓ Tiny YOLOv3 deployed
+✓ Hardware-accelerated object detection working
