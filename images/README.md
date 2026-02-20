@@ -13,7 +13,7 @@ This board was used to deploy and accelerate the deep learning object detection 
 
 The following image was provided as input to the trained model for object detection.
 
-![Input Image](images/dog.png)
+![Input Image](images/dog.jpg)
 
 The model processes this image and performs real-time object detection using the deployed neural network.
 
