@@ -1,4 +1,3 @@
-# hardware-accelerated-CNN-inference-on-ZCU104-using-Vitis-AI
 # Tiny YOLOv3 on ZCU104 using Vitis AI DPU
 
 # 🚀 Hardware Accelerated CNN Inference on ZCU104 using Vitis AI
